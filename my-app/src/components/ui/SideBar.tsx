@@ -11,7 +11,7 @@ const SideBar = () => {
         { src: '/mdi_resource-description-framework.svg', title: 'Discover Web3' },
     ];
     return (
-        <aside className='bg-white h-full w-72 py-4 px-4 pb-9 flex flex-col'>
+        <aside className='bg-white py-4 px-6 pb-9 flex flex-col flex-shrink-0 md:px-3'>
             <Logo />
             <nav className='mt-[80px] grow'>
                 <ul className='flex flex-col gap-3'>
@@ -33,9 +33,9 @@ const SideBar = () => {
                 </ul>
             </nav>
             <div>
-                <div className='flex items-center gap-7'>
+                <div className='flex items-center gap-7 md:gap-2 flex-col'>
                     <div className='flex items-center gap-2'>
-                        <Image src='/user.png' alt='user' width={40} height={40} />
+                        <Image src='/user.png' alt='user' width={40} height={40} className='flex-shrink-0' />
                         <div>
                             <h6 className='text-[14px] leading-[17px] font-semibold text-main'>Ryan Fay</h6>
                             <p className='text-[12px] leading-[14px] text-secondary'>ryanfay@edgevana.com</p>

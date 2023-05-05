@@ -16,7 +16,7 @@ const WelcomeSecondSection = () => {
     const [index, setIndex] = useState(0);
     return (
         <section className='w-full h-full flex flex-col justify-end'>
-            <div className='max-w-[731px] max-h-[911px] absolute w-full h-full right-0 top-4'>
+            <div className='pointer-events-none max-w-[731px] max-h-[911px] absolute w-full h-full right-0 -top-4 lg:max-w-[531px] sm:max-w-[380px] lg:-top-24'>
                 <Image src='/General Information.png' alt='general information' fill className='object-contain' />
                 <Image
                     src='/Chats.png'
@@ -26,7 +26,7 @@ const WelcomeSecondSection = () => {
                     className='absolute object-contain bottom-16 -translate-x-1/3 '
                 />
             </div>
-            <div className='flex 2xl:gap-20 items-center xl:gap-10 gap-5'>
+            <div className='flex items-center max-w-[715px] justify-between gap-3'>
                 <div className='overflow-hidden max-w-[535px] relative'>
                     <div className='flex relative transition-all' style={{ right: `${index * 100}%` }}>
                         {texts.map((text) => (

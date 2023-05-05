@@ -6,7 +6,7 @@ const WelcomeBlock = () => {
     const { push } = useRouter();
     return (
         <div className='flex flex-col max-w-[400px]'>
-            <h1 className='font-bold text-[26px] leading-[31px] text-main'>Welcome to Edgevana</h1>
+            <h1 className='font-bold text-[26px] leading-[31px] text-main md:mt-3'>Welcome to Edgevana</h1>
             <p className='mt-3 text-secondary text-[15px] leading-[18px]'>Choose your account type to get started</p>
             <div className='mt-[40px] pt-[25px] pr-[25px] pb-[21px] pl-[84px] relative border-[1.5px] rounded-lg border-border hover:bg-hovered'>
                 <Image

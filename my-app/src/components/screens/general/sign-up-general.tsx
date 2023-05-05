@@ -5,7 +5,7 @@ import GeneralSecondSection from '@/components/ui/GeneralSecondSection';
 
 const SignUpGeneral = () => {
     return (
-        <div className='flex items-stretch h-screen overflow-y-hidden'>
+        <div className='flex items-stretch min-h-screen lg:flex-col lg:overflow-auto'>
             <div className='flex-1'>
                 <FormLayout>
                     <GeneralBlock />
@@ -13,7 +13,7 @@ const SignUpGeneral = () => {
             </div>
             <div className='flex-1 relative'>
                 <SecondSectionLayout>
-                    <div className='px-[149px] py-[158px] 3xl:px-[46px] h-full'>
+                    <div className='py-[158px] xl:py-[96px]  sm:py-4 px-2 h-full md:min-h-[768px]'>
                         <GeneralSecondSection />
                     </div>
                 </SecondSectionLayout>
