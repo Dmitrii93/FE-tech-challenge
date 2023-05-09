@@ -15,7 +15,7 @@ const GeneralSecondSection = () => {
                     See terms
                 </Link>
             </p>
-            <div className='mt-12 relative w-full h-full max-w-[659px] max-h-[686px] min-h-[530px] mx-auto lg:mt-0 md:min-h-0'>
+            <div className='mt-12 relative w-full h-full max-w-[659px] max-h-[686px] min-h-[530px] mx-auto lg:mt-0'>
                 <Image src='/Incentives.png' alt='analytics' fill className='object-contain' />
                 <Image
                     src='/Mobile.png'

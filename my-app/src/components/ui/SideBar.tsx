@@ -11,7 +11,7 @@ const SideBar = () => {
         { src: '/mdi_resource-description-framework.svg', title: 'Discover Web3' },
     ];
     return (
-        <aside className='bg-white py-4 px-6 pb-9 flex flex-col flex-shrink-0 md:px-3'>
+        <aside className='bg-white py-4 px-6 pb-9 flex flex-col flex-shrink-0 lg:px-3 md:hidden'>
             <Logo />
             <nav className='mt-[80px] grow'>
                 <ul className='flex flex-col gap-3'>

@@ -15,7 +15,7 @@ const texts = [
 const WelcomeSecondSection = () => {
     const [index, setIndex] = useState(0);
     return (
-        <section className='w-full h-full flex flex-col justify-end'>
+        <section className='w-full h-full flex flex-col justify-end md:min-h-[768px]'>
             <div className='pointer-events-none max-w-[731px] max-h-[911px] absolute w-full h-full right-0 -top-4 lg:max-w-[531px] sm:max-w-[380px] lg:-top-24'>
                 <Image src='/General Information.png' alt='general information' fill className='object-contain' />
                 <Image

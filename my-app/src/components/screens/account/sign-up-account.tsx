@@ -13,7 +13,7 @@ const SignUpAccount = () => {
             </div>
             <div className='flex-1 relative'>
                 <SecondSectionLayout>
-                    <div className='2xl:pl-[105px] 2xl:pr-[46px] 2xl:py-[146px] lg:p-[24px]  p-6 h-full md:min-h-[768px] sm:min-h-[768px] xs:p-4'>
+                    <div className='pl-[105px] pr-[46px] py-[146px] 2xl:py-[48px] lg:p-[24px] xs:p-3 h-full min-h-[1024px] md:min-h-[768px]'>
                         <WelcomeSecondSection />
                     </div>
                 </SecondSectionLayout>

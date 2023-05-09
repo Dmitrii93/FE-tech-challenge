@@ -13,7 +13,7 @@ const SignUpGeneral = () => {
             </div>
             <div className='flex-1 relative'>
                 <SecondSectionLayout>
-                    <div className='py-[158px] xl:py-[96px]  sm:py-4 px-2 h-full md:min-h-[768px]'>
+                    <div className='py-[158px] xl:py-[96px] sm:py-4 lg:px-8 px-2 h-full md:min-h-[768px]'>
                         <GeneralSecondSection />
                     </div>
                 </SecondSectionLayout>
