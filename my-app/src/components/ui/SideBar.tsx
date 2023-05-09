@@ -1,15 +1,8 @@
 import Image from 'next/image';
 import Logo from './Logo';
+import { list } from '@/mocks/mocks';
 
 const SideBar = () => {
-    const list = [
-        { src: '/Server.svg', title: 'Nodes' },
-        { src: '/dashboard 2.svg', title: 'Dashboard' },
-        { src: '/nimbus_ecosystem.svg', title: 'Ecosystem' },
-        { src: '/dashboard 1.svg', title: 'Analytics' },
-        { src: '/organizations.svg', title: 'Teams' },
-        { src: '/mdi_resource-description-framework.svg', title: 'Discover Web3' },
-    ];
     return (
         <aside className='bg-white py-4 px-6 pb-9 flex flex-col flex-shrink-0 lg:px-3 md:hidden'>
             <Logo />

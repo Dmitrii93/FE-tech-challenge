@@ -1,15 +1,8 @@
+import { radios, tabs } from '@/mocks/mocks';
 import Image from 'next/image';
 import { useState } from 'react';
 
 const ToolKitSection = () => {
-    const tabs = ['Overview', 'Projects', 'Events', 'News', 'Developer Toolkit', 'Entrepreneur Toolkit'];
-    const radios = [
-        'High Performant Validator',
-        'Public Full Node Producer',
-        'RPC (full program IDs)',
-        'Web3 Developer',
-        'Web2 Developer',
-    ];
     const [currentRadio, setCurrentRadio] = useState(radios[0]);
     return (
         <div className='p-6 w-full md:p-4'>

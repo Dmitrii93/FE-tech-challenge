@@ -1,16 +1,9 @@
 import Image from 'next/image';
 import Logo from './Logo';
 import { useState } from 'react';
+import { list } from '@/mocks/mocks';
 
 const SideBarMobiles = () => {
-    const list = [
-        { src: '/Server.svg', title: 'Nodes' },
-        { src: '/dashboard 2.svg', title: 'Dashboard' },
-        { src: '/nimbus_ecosystem.svg', title: 'Ecosystem' },
-        { src: '/dashboard 1.svg', title: 'Analytics' },
-        { src: '/organizations.svg', title: 'Teams' },
-        { src: '/mdi_resource-description-framework.svg', title: 'Discover Web3' },
-    ];
     const [isActive, setIsActive] = useState(false);
     return (
         <>
